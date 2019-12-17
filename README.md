@@ -292,7 +292,7 @@ Note: Restart the rails server
 
 <br><br>
 Note: You may get error of foreign key or duplicate id 'user_id'. To fix this, exceute: <br>
-rake db:reset <br>
+rails db:reset <br>
 rails db:migrate <br>
 
 But it will delete all the data as well.<br>
