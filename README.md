@@ -65,27 +65,7 @@ Let's build a recipes app where a recipe has and belongs to many ingredients and
 <br>
 
 1. `rails db:seed`
-1. `rails c`
-1. `pizza = Recipe.first`
-1. `pizza.ingredients`
-1. `pizza.ingredients.create(name: "peppers")`
 
-<br>
-Note: Sometimes this happens. Create command works well with some version but may not work with other versions.<br>
-We always have MySQL query to fix this.
-<br>
-<br>
-So, what would be the query?
-<br>
-<br>
-<br>
-<hr>
-
-```ruby
-update recipeapp_development.ingredients 
-SET name = "peppers"
-where id = 
-```
 
 <br>
 <hr>
