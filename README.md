@@ -50,20 +50,19 @@ Let's build a recipes app where a recipe has and belongs to many ingredients and
   pizza = Recipe.create(name: "Pizza")
   grilled_cheese = Recipe.create(name: "grilled cheese")
 
-  grilled_cheese.Ingredients.create(name: "Pickles")
+  grilled_cheese.ingredients.create(name: "Pickles")
 
   pizza.ingredients.create(name: "tomato sauce")
   pizza.ingredients.create(name: "pepperoni")
 
   cheese = pizza.ingredients.create(name: "cheese")
   mushrooms = pizza.ingredients.create(name: "mushrooms")
+  tomato = pizza.ingredients.create(name: "tomato")
 
   grilled_cheese.ingredients << [cheese, tomato]
   ```
   <br>
-  Note: Ingredients I needs to be small<br>
-  Note: Fix tomato error
-<br><br><br>
+<br>
 
 1. `rails db:seed`
 1. `rails c`
