@@ -305,6 +305,7 @@ Run rails db:seed will also not work, becuase now user_id is a part of recipe ta
 pizza = Recipe.create(name: "Pizza", user_id: 1)
 grilled_cheese = Recipe.create(name: "grilled cheese", user_id: 1)
 ```
+Run rails db:seed again
 
 <br><br><br>
 
