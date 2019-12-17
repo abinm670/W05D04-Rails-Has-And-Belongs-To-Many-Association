@@ -200,7 +200,6 @@ end
 1. `rails generate devise User`
 1. `rails db:migrate`
 
-Take a moment review to review and check out the files/folders that were generated.
 
 <br><br>
 
